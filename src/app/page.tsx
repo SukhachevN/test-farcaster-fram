@@ -21,3 +21,7 @@ export const metadata: Metadata = {
         ...frameMetadata,
     },
 };
+
+export default function Page() {
+    return null;
+}
