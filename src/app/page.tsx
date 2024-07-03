@@ -10,6 +10,7 @@ const frameMetadata = getFrameMetadata({
 export const metadata: Metadata = {
     title: 'Title',
     description: 'Description',
+    metadataBase: null,
     openGraph: {
         title: 'Title',
         description: 'Description',
