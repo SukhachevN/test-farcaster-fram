@@ -7,9 +7,9 @@ export async function POST(req: NextRequest) {
     let path: string;
 
     if (buttonId === 1) {
-        path = 'cosmiccowboys';
+        path = 'visit';
     } else if (buttonId === 2) {
-        path = 'pinatacloud';
+        path = 'learn';
     } else {
         path = '';
     }

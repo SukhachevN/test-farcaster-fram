@@ -3,14 +3,14 @@ const nextConfig = {
     async redirects() {
         return [
             {
-                source: '/cosmiccowboys',
+                source: '/visit',
                 destination: 'https://nomis.cc/multichain',
-                permanent: true,
+                permanent: false,
             },
             {
-                source: '/pinatacloud',
-                destination: 'https://nomis.cc/multichain',
-                permanent: true,
+                source: '/learn',
+                destination: 'https://nomis.cc/rubic',
+                permanent: false,
             },
         ];
     },
