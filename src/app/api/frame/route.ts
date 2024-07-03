@@ -7,7 +7,7 @@ async function getResponse(req: NextRequest) {
 
     const nextId = idAsNumber + 1;
 
-    if (idAsNumber === 7) {
+    if (idAsNumber === 3) {
         return new NextResponse(`
             <!DOCTYPE html>
             <html>
@@ -19,7 +19,7 @@ async function getResponse(req: NextRequest) {
                     <meta property="fc:frame:button:1:action" content="post_redirect" />
                     <meta property="fc:frame:button:2" content="Learn" />
                     <meta property="fc:frame:button:2:action" content="post_redirect" />
-                    <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/end" />
+                    <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/finish" />
                 </head>
             </html>`);
     } else {
