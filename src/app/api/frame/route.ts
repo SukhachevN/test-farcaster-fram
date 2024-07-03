@@ -19,7 +19,7 @@ async function getResponse(req: NextRequest) {
                     <meta property="fc:frame:button:1:action" content="post_redirect" />
                     <meta property="fc:frame:button:2" content="Learn" />
                     <meta property="fc:frame:button:2:action" content="post_redirect" />
-                    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/end" />
+                    <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_BASE_URL}/api/end" />
                 </head>
             </html>`);
     } else {
