@@ -13,9 +13,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Title',
         description: 'Description',
-        images: [
-            `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmfPP4Dbg9c4PsrYKgPHAFoxDhgQoQX7uWSvWjz2W7t9Bz`,
-        ],
+        images: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmfPP4Dbg9c4PsrYKgPHAFoxDhgQoQX7uWSvWjz2W7t9Bz`,
     },
     other: {
         ...frameMetadata,
