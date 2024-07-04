@@ -12,11 +12,6 @@ const nextConfig = {
                 destination: 'https://nomis.cc/rubic',
                 permanent: false,
             },
-            {
-                source: '/redirect',
-                destination: 'https://192.168.1.149:5173/',
-                permanent: false,
-            },
         ];
     },
 };
